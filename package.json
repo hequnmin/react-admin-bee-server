@@ -1,0 +1,23 @@
+{
+  "name": "react-admin-bee-server",
+  "version": "1.0.0",
+  "description": "a json-server for react-admin-bee.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hequnmin/react-admin-bee-server.git"
+  },
+  "keywords": [
+    "json-server",
+    "react-admin"
+  ],
+  "author": "hequnmin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hequnmin/react-admin-bee-server/issues"
+  },
+  "homepage": "https://github.com/hequnmin/react-admin-bee-server#readme"
+}
