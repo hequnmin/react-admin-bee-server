@@ -1,0 +1,37 @@
+extends layout
+
+block content
+    div.container
+        div.jumbotron
+            h1= title
+            p Welcome to #{title}
+        div.card
+            div.card-body
+                div.form-group.row
+                    label.col-sm-2.text-right 用户编号：
+                    div.col-sm-4
+                        input(type='text' name='userNo').form-control#userNo
+                div.form-group.row
+                    label.col-sm-2.text-right 昵称：
+                    div.col-sm-4
+                        input(type='text' name='userName').form-control#userName
+                div.form-group.row
+                    label.col-sm-2.text-right 姓名：
+                    div.col-sm-4
+                        input(type='text' name='realName').form-control#realName
+                div.form-group.row
+                    label.col-sm-2.text-right 电子邮箱：
+                    div.col-sm-4
+                        div.input-group
+                            div.input-group-addon @
+                            input.form-control#email
+                div.form-group.row
+                    label.col-sm-2.text-right 手机号码：
+                    div.col-sm-4
+                        input(type='text' name='mobile').form-control#mobile
+
+                div.row
+                    div.col-sm-2
+                    div.col-sm-4
+                        button(type='button').btn.btn-primary 注册
+                        button(type='button').btn.btn-success 更新

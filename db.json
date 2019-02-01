@@ -1,4 +1,15 @@
 {
+  "User": [
+    {
+      "userNo": "Min",
+      "userName": "Min+",
+      "realName": "hequnmin",
+      "avatar": "https://gitlab.becheer.com/uploads/-/system/user/avatar/2/avatar.png",
+      "email": "hequnmin@desay.com",
+      "mobile": "13927301011",
+      "id": 1
+    }
+  ],
   "members": [
     {
       "id": 0,
